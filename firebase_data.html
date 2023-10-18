@@ -1,0 +1,105 @@
+            
+    <!DOCTYPE html>             
+    <html>
+    <head>
+        <title>Firebase Data</title>
+        <style>
+        
+    body {
+        background-color: black;
+        color: white;
+    }
+
+    #sensor-gauges {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .sensor-gauge {
+        text-align: center;
+    }
+
+    .gauge-container {
+        width: 150px;
+        height: 150px;
+        margin: 50px 300px;
+        position: relative;
+    }
+
+    .gauge {
+        width: 100%;
+        height: 100%;
+        border: 5px solid blue;
+        border-radius: 50%;
+        position: absolute;
+    }
+
+    .needle {
+        width: 5px;
+        height: 40%;
+        background: red;
+        position: absolute;
+        top: 50%;
+        bottom: 0;
+        left: calc(50% - 1.5px);
+        transform-origin: 50% 0;
+        transition: transform 0.5s;
+    }
+
+    .gauge-reading {
+        margin-top: 10px;
+        font-size: 20px;
+        color: white;
+    }
+
+    .red-text {
+        color: red;
+    }
+    .green-text {
+        color: green;
+    }
+
+    </style>
+    </head>
+    <body>
+        <h1>Real-time Data Monitor</h1>
+        <p>Heart Sensor Value: <span id="heart-sensor-value">230 BPM</span><p>
+        <p>Gas Sensor Value: <span id="gas-sensor-value">500 PPM</span></p>
+        <p>Helmet Id :<span id="helmet -id">1001</span></p>
+        <p>Panic Button: <span id="panic-button-status" class="green-text">Safe</span></p>
+        <p>HEART Danger: <span id="danger-duration" class="red-text">Heart Risk Alert</span></p>
+        <p>HEARTSENSOR EXCEEDING  DURATION : <span id="heart-duration">836.778 seconds</span></p>
+        <div id="sensor-gauges">
+    <div class="sensor-gauge">
+        <div class="gauge-container">
+            <div class="gauge" style="transform: rotate(276deg);"></div>
+            <div class="needle" style="transform: rotate(276deg);"></div>
+        </div>
+        <div class="gauge-reading">Heart Sensor Value: 230 BPM</div>
+    </div>
+    <div class="sensor-gauge">
+        <div class="gauge-container">
+            <div class="gauge" style="transform: rotate(36deg);"></div>
+            <div class="needle" style="transform: rotate(36deg);"></div>
+        </div>
+        <div class="gauge-reading">Gas Sensor Value: 500 PPM</div>
+    </div>
+</div>
+
+    </body>
+    </html>
+    <script>
+    function autoReloadPage() {
+        setTimeout(function() {
+            location.reload();
+        }, 2000); 
+    }
+
+    // Call the autoReloadPage function to start automatic reloading
+    autoReloadPage();
+
+      
+    </script>
+
+    

@@ -1,0 +1,24 @@
+{
+  "name": "level1_css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "link.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "admin": "^1.4.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "firebase": "^10.4.0",
+    "firebase-admin": "^11.11.0",
+    "node-notifier": "^10.0.1"
+  }
+}
