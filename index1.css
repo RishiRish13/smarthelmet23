@@ -1,0 +1,93 @@
+.about-us,
+.contact {
+  position: absolute;
+  top: 39px;
+  left: 725px;
+  font-weight: 800;
+  font-family: var(--font-inter);
+}
+.contact {
+  left: 1044px;
+}
+.log-in-sign {
+  position: absolute;
+  top: 32px;
+  left: 1416px;
+  font-weight: 600;
+  display: inline-block;
+  width: 140px;
+  height: 30px;
+}
+.frame-child {
+  position: absolute;
+  top: 0;
+  left: 554.01px;
+  width: 611px;
+  height: 1px;
+}
+.smart-helmet1 {
+  margin: 0;
+}
+.smart-helmet {
+  margin: 0;
+  position: absolute;
+  top: 401px;
+  left: 94px;
+  font-size: 64px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  width: 515px;
+  height: 91px;
+}
+.frame-item {
+  position: absolute;
+  top: 442px;
+  left: 906px;
+  width: 673px;
+  height: 483px;
+  mix-blend-mode: multiply;
+}
+.lighting-the-path,
+.we-are-dedicated {
+  position: absolute;
+  display: inline-block;
+}
+.lighting-the-path {
+  margin: 0;
+  top: 494px;
+  left: 236px;
+  font-size: 40px;
+  font-weight: 300;
+  font-family: inherit;
+  width: 565px;
+  height: 119px;
+}
+.we-are-dedicated {
+  top: 615px;
+  left: 91px;
+  font-size: 20px;
+  font-weight: 200;
+  width: 631px;
+  height: 105px;
+}
+.miners-working-safe-in-copperm-icon {
+  position: absolute;
+  top: 465px;
+  left: 992px;
+  border-radius: 223px;
+  width: 501px;
+  height: 465px;
+  object-fit: cover;
+}
+.about-us-parent {
+  position: relative;
+  background-color: var(--color-gray);
+  width: 100%;
+  height: 1039px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-barlow);
+}

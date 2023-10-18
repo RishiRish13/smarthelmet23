@@ -1,0 +1,122 @@
+.frame-child,
+.frame-item {
+  position: absolute;
+  top: -228px;
+  left: -902.5px;
+  width: 611px;
+  height: 309px;
+}
+.frame-item {
+  top: 277px;
+  left: 441px;
+  background-color: rgba(165, 159, 159, 0.94);
+  width: 679px;
+  height: 386px;
+}
+.log-in,
+.username {
+  position: absolute;
+  top: 362px;
+  left: 514px;
+  display: inline-block;
+  width: 178px;
+  height: 85px;
+}
+.log-in {
+  top: 319px;
+  left: 727px;
+  font-size: var(--font-size-17xl);
+  font-weight: 900;
+  font-family: var(--font-barlow);
+  width: 106px;
+  height: 43px;
+}
+.frame-inner {
+  border: 0;
+  background-color: var(--color-gainsboro);
+  position: absolute;
+  top: 405px;
+  left: 514px;
+  width: 213px;
+  height: 42px;
+}
+.password {
+  position: absolute;
+  top: 470px;
+  left: 515px;
+}
+.rectangle-div,
+.rectangle-input {
+  position: absolute;
+  background-color: var(--color-gainsboro);
+}
+.rectangle-input {
+  border: 0;
+  top: 512px;
+  left: 514px;
+  width: 213px;
+  height: 54px;
+}
+.rectangle-div {
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+}
+.rectangle-icon {
+  position: absolute;
+  top: -578.5px;
+  left: -482.5px;
+  width: 127px;
+  height: 46px;
+}
+.sign-in {
+  position: absolute;
+  top: 609px;
+  left: 716px;
+}
+.home,
+.rectangle-a {
+  text-decoration: none;
+  position: absolute;
+}
+.rectangle-a {
+  top: 609px;
+  left: 715px;
+  background-color: var(--color-gainsboro);
+  width: 129px;
+  height: 39px;
+  mix-blend-mode: multiply;
+}
+.home {
+  top: 77px;
+  left: 105px;
+  font-size: var(--font-size-17xl);
+  font-weight: 800;
+  color: inherit;
+}
+.vector-parent {
+  position: relative;
+  background-color: var(--color-gray);
+  width: 100%;
+  height: 910px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+
+.rectangle-button {
+  position: absolute;
+  top: 75%; /* Adjust the vertical position as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--color-gainsboro);
+  color: var(--color-black); /* Add a color for the text */
+  font-size: var(--font-size-5xl);
+  font-weight: 800;
+  border: 0;
+  padding: 10px 20px; /* Add padding to increase button size */
+  cursor: pointer;
+}

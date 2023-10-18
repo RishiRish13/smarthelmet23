@@ -1,0 +1,1 @@
+const { getDatabase, ref, onValue } = require('firebase/database');

@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-barlow: Barlow;
+
+  /* font sizes */
+  --font-size-17xl: 36px;
+  --font-size-13xl: 32px;
+  --font-size-5xl: 24px;
+
+  /* Colors */
+  --color-gray: #060000;
+  --color-white: #fff;
+  --color-gainsboro: #d9d9d9;
+}

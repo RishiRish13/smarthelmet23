@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index1.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;600;700;900&display=swap"
+    />
+  </head>
+  <body>
+    <div class="about-us-parent">
+      <div id="about-us-section" class="about-us">ABOUT US</div>
+      <div class="contact" id="contact-button" >CONTACT</div>
+      <div class="log-in-sign" id="login-button">DATA-MONITOR </div>
+      <img class="frame-child" alt="" src="./public/line-1.svg" />
+
+      <h1 class="smart-helmet">
+        <p class="smart-helmet1">SMART HELMET</p>
+      </h1>
+      <img class="frame-item" alt="" src="./public/ellipse-1.svg" />
+
+      <h2 class="lighting-the-path">LIGHTING THE PATH TO SAFETY</h2>
+      <div class="we-are-dedicated">
+        We are dedicated to revolutionizing mine safety, and our Smart Helmet is
+        a testament to that commitment. Designed to be the guardian of miners
+        working deep underground, our Smart Helmet integrates cutting-edge
+        technology to ensure the well-being of your workforce.
+      </div>
+      <img
+        class="miners-working-safe-in-copperm-icon"
+        alt=""
+        
+        src="miners-working-safe-in-coppermine_How-miners-work-safely.jpg" 
+      />
+    </div>
+    <script>
+        document.getElementById("login-button").addEventListener("click", function () {
+          window.location.href = "http://localhost:3000"; 
+        });
+    </script>
+    <script>
+        // Get a reference to the "About Us" button and the target section
+        const aboutUsButton = document.querySelector(".about-us");
+        const aboutUsSection = document.getElementById("about-us-section");
+      
+        // Add a click event listener to scroll to the About Us section
+        aboutUsButton.addEventListener("click", function () {
+    // Calculate the height of the page
+    const pageHeight = document.body.scrollHeight;
+
+    // Scroll to the bottom of the page
+    window.scrollTo({
+      top: pageHeight,
+      behavior: "smooth" // Optionally, add smooth scrolling
+    });
+  });
+      </script>
+
+    <script>
+    document.getElementById("contact-button").addEventListener("click", function () {
+      window.location.href = "https://roboticsandcircuits.com/#contact"; // Redirect to the external URL
+    });
+    </script>
+  </body>
+</html>
+<!--src="./public/minersworkingsafeincoppermine-howminersworksafely-1@2x.png"--> 

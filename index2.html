@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global2.css" />
+    <link rel="stylesheet" href="./index2.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;600;700;900&display=swap"
+    />
+  </head>
+  <body>
+    <div class="vector-parent">
+      <img class="frame-child" alt="" src="./public/rectangle-3.svg" />
+
+      <div class="frame-item"></div>
+      <div class="username">USERNAME</div>
+      <div class="log-in">LOG IN</div>
+      <input class="frame-inner" id="username-input" type="text" />
+
+      <div class="password">PASSWORD</div>
+      <input class="rectangle-input" id="password-input" type="password" />
+
+      <div class="rectangle-div"></div>
+      <img class="rectangle-icon" alt="" src="./public/rectangle-8.svg" />
+
+      <!-- Use a button element for sign-in -->
+      <button class="rectangle-button" id="button">SIGN IN</button>
+
+      <a class="home" id="Home" href="index1.html">HOME</a>
+    </div>
+
+    <script>
+      // Get the username and password input elements
+      const usernameInput = document.getElementById('username-input');
+      const passwordInput = document.getElementById('password-input');
+
+      // Get the sign-in button element
+      const signInButton = document.getElementById('button'); // Updated to use the button element
+
+      // Add a click event listener to the sign-in button
+      signInButton.addEventListener('click', function () {
+        // Get the values entered by the user
+        const enteredUsername = usernameInput.value.trim();
+        const enteredPassword = passwordInput.value.trim();
+
+        // Check if the entered username and password are correct
+        if (enteredUsername === 'rnc' && enteredPassword === 'rnc123') {
+          // Redirect to the firebase_data.html page
+          console.log('Valid credentials. Redirecting...');
+          window.location.href = 'http://localhost:3000';
+        } else {
+          // Display an alert for invalid credentials
+          alert('Invalid username or password. Please try again.');
+        }
+      });
+    </script>
+  </body>
+</html>
